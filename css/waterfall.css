@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	float: left;
+}
+.content{
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.content img{
+	width: 190px;
+}

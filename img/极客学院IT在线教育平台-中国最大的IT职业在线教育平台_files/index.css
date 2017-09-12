@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 12px;
+}
+
+/*头部*/
+.w-1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+header .logo {
+    float: left;
+    width: 113px;
+    margin-top: 20px;
+}
+header .search-section{
+	width: 380px;
+	height: 38px;
+	border: 1px solid #e4e4e4;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+}
+.search-section .search-text {
+    width: 365px;
+    height: 38px;
+    padding: 0 15px;
+    border: 0;
+    line-height: 18px;
+    color: #333;
+    background: #fff;
+    text-align: left;
+}
+.search-section .search-btn {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    color: #6d6d6d;
+    background: url(http://s1.jikexueyuan.com/common/images/topsearch-icon_e1f5df2.png) center center no-repeat;
+    cursor: pointer;
+}
+.search-section .search-btn:hover{
+	background-color: #35b558;
+	color: #fff;
+}
+.loginbox{
+	float: right;
+	width: 270px;
+	height: 16px;
+	margin-top: 30px;
+}
+.loginbox .my-message2 {
+    background: url(http://s1.jikexueyuan.com/common/images/massage-icon2_d1369b2.gif) 0 2px no-repeat;
+    background-size: 15px 13px;
+    width: 15px;
+    height: 13px;
+    float: left;
+}
+.loginbox em{
+	font-style: normal;
+	float: left;
+	margin-left: 5px
+}
+.loginbox img{
+	float: left;
+	margin-left: 5px
+}
+.userMenu span{
+	color: #35b558;
+	font-size: 14px;
+	float: left;
+	margin-left: 5px
+}
+.user-change{
+    color: #2d85ca;
+    float: left;
+    margin-left: 5px
+}
